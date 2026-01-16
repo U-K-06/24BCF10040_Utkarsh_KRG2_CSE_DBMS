@@ -3,4 +3,6 @@
 24BCF10040
 24AIT-KRG-G2
 2025-2026
+
+
 Repo to store all sql codes for DBMS subject
