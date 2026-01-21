@@ -41,7 +41,25 @@ SQL commands for creating database, tables, inserting records, updating data, de
 
 ### Output
 Successful creation of tables, insertion of records, updated and deleted data, role creation and permission control.  
-Screenshots of SQL execution and output are attached in the repository.
+## Screenshots
+
+### Table Creation
+
+
+### DML Operations
+![DML Operations](screenshots/s2.png)
+
+### SELECT Output
+![Select Output](screenshots/s3.png)
+
+### Role Creation
+![Grant Permissions](screenshots/s4.png)
+
+### Grant Permissions
+![Running query in user server](screenshots/s5.png)
+### Revoke Permissions
+![Modifying data in user server](screenshots/s6.png)
+
 
 ## Learning Outcome
 After completing this experiment, the student understood how to design a database using tables and constraints. The student learned how to use DDL, DML and DCL commands in PostgreSQL. This experiment also provided practical exposure to role based access control and database security.

@@ -1,3 +1,5 @@
+
+drop table employee;
 CREATE TABLE employee (
     emp_id INTEGER,
     emp_name VARCHAR(100),
