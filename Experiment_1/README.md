@@ -52,12 +52,12 @@ Successful creation of tables, insertion of records, updated and deleted data, r
 ### SELECT Output
 ![Select Output](screenshots/s3.png)
 
-### Role Creation
+### Role Creation and revoke
 ![Grant Permissions](screenshots/s4.png)
 
-### Grant Permissions
+### Running query in user server
 ![Running query in user server](screenshots/s5.png)
-### Revoke Permissions
+### Modifying data in user server
 ![Modifying data in user server](screenshots/s6.png)
 
 
