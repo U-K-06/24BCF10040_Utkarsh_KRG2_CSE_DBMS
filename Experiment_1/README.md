@@ -53,7 +53,10 @@ Successful creation of tables, insertion of records, updated and deleted data, r
 ![Select Output](screenshots/s3.png)
 
 ### Role Creation and revoke
+#### Grant
 ![Grant Permissions](screenshots/s4.png)
+#### Revoke
+![revoke permissions](screenshots/s1.png)
 
 ### Running query in user server
 ![Running query in user server](screenshots/s5.png)
