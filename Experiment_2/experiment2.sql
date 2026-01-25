@@ -1,53 +1,36 @@
-
-drop table employee;
-CREATE TABLE employee (
-    emp_id INTEGER,
-    emp_name VARCHAR(100),
-    department VARCHAR(100),
-    salary INTEGER,
-    joining_date DATE
+CREATE TABLE employee(
+	emp_id NUMERIC PRIMARY KEY,
+	emp_name VARCHAR(50),
+	department VARCHAR(50),
+	salary NUMERIC(10,2),
+	joining_date DATE
 );
 
-INSERT INTO employee VALUES (1, 'Amit', 'HR', 25000, DATE '2020-01-10');
-INSERT INTO employee VALUES (2, 'Neha', 'HR', 35000, DATE '2019-03-15');
-INSERT INTO employee VALUES (3, 'Rahul', 'IT', 40000, DATE '2018-07-22');
-INSERT INTO employee VALUES (4, 'Sneha', 'IT', 15000, DATE '2021-02-11');
-INSERT INTO employee VALUES (5, 'Vikas', 'Finance', 50000, DATE '2017-11-05');
-INSERT INTO employee VALUES (6, 'Anita', 'Finance', 28000, DATE '2020-06-18');
-INSERT INTO employee VALUES (7, 'Rohit', 'Sales', 22000, DATE '2019-09-30');
-INSERT INTO employee VALUES (8, 'Pooja', 'Sales', 32000, DATE '2018-12-12');
+INSERT INTO employee VALUES (101, 'Amit', 'IT', 19000, '2020-02-12');
+INSERT INTO employee VALUES (102, 'Priya', 'HR', 22000, '2019-03-10');
+INSERT INTO employee VALUES (103, 'Rahul', 'Sales', 35000, '2021-07-18');
+INSERT INTO employee VALUES (104, 'Neha', 'IT', 55000, '2018-09-22');
+INSERT INTO employee VALUES (105, 'Rohan', 'Finance', 32000, '2022-01-05');
+INSERT INTO employee VALUES (106, 'Sara', 'Sales', 13000, '2020-12-03');
+INSERT INTO employee VALUES (107, 'Vikram', 'HR', 12000, '2017-04-11');
 
-SELECT * 
-FROM employee;
+SELECT department, AVG(salary) AS avg_salary
+FROM employee
+GROUP BY department;
 
-SELECT emp_name, salary 
+SELECT department, AVG(salary) AS avg_salary
 FROM employee
 WHERE salary > 20000
-ORDER BY salary DESC;
-
-SELECT department, COUNT(*) AS total_employees
-FROM employee
 GROUP BY department;
 
-SELECT department, SUM(salary) AS total_salary
+SELECT department, AVG(salary) AS avg_salary
 FROM employee
-GROUP BY department;
+GROUP BY department
+HAVING AVG(salary) > 30000;
 
-SELECT department, MIN(salary) AS minimum_salary
-FROM employee
-GROUP BY department;
-
-SELECT department, MAX(salary) AS maximum_salary
-FROM employee
-GROUP BY department;
-
-SELECT department, AVG(salary) AS average_salary
-FROM employee
-GROUP BY department;
-
-SELECT department, AVG(salary) AS average_salary
+SELECT department, AVG(salary) AS avg_salary
 FROM employee
 WHERE salary > 20000
 GROUP BY department
 HAVING AVG(salary) > 30000
-ORDER BY average_salary DESC;
+ORDER BY avg_salary DESC;
