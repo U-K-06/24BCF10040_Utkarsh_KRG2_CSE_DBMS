@@ -1,7 +1,7 @@
-# Experiment 1.1 – Library Management System Database
+# Experiment 1 – Library Management System Database
 
 ## Experiment
-**Experiment 1.1:** Design and implementation of a Library Management System using PostgreSQL with DDL, DML and DCL commands.
+**Experiment 1:** Design and implementation of a Library Management System using PostgreSQL with DDL, DML and DCL commands.
 
 ## Aim
 The aim of this experiment is to design and implement a Library Management System database using PostgreSQL. The database is created using proper tables, primary keys, foreign keys and constraints. DML operations are performed and database security is implemented using roles and privileges.
