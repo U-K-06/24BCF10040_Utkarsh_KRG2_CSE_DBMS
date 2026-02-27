@@ -89,25 +89,21 @@ To understand and apply conditional logic in SQL by using the modulus operator (
 ## Step-wise Output
 
 ### Step 1 – Create employee Table
-Table created successfully.
-
+![Step 1: Create Table](Screenshots/s1.png)
 ### Step 2 – Insert Data into employee Table
-Rows inserted successfully.
+![Step 2: Insert Data](Screenshots/s2.png)
 
 ### Step 3 – Display Employee Salary Records
-Employee salary data displayed.
+![Step 3: Employee Salaries](Screenshots/s3.png)
 
 ### Step 4 – Classify Salaries as Odd or Even
-Output columns:
-- name
-- salary
-- salary_type (Odd / Even)
+![Step 4: Classify Salaries](Screenshots/s4.png)
 
 ### Step 5 – Display Only Odd Salaries
-Odd salary records displayed.
+![Step 5: Odd Salaries](Screenshots/s5.png)
 
 ### Step 6 – Display Only Even Salaries
-Even salary records displayed.
+![Step 6: Even Salaries](Screenshots/s6.png)
 
 ---
 
