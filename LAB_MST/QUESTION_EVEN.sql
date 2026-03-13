@@ -17,4 +17,4 @@ SELECT emp_id, name, salary
 FROM Employees
 WHERE salary > 50000;
 
-SELECT * FROM HighSalaryEmployees;\
+SELECT * FROM HighSalaryEmployees;
