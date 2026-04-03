@@ -56,19 +56,19 @@ Organizations often require flexible reporting mechanisms to analyze workforce d
 ### Step-wise Output
 
 **Step 1 – Create Employee Table**  
-Step 1: Create Table
+![Employee Table Creation](Screenshots/s1.png)
 
 **Step 2 – Insert Sample Data**  
-Step 2: Insert Data
+![Insert Sample Data](Screenshots/s2.png)
 
 **Step 3 – Create Stored Procedure**  
-Step 3: Procedure Creation
+![Create Stored Procedure](Screenshots/s3.png)
 
 **Step 4 – Execute Stored Procedure**  
-Step 4: Execution
+![Execute Stored Procedure](Screenshots/s4.png)
 
 **Step 5 – Display Output**  
-Step 5: Output Result
+![Display Output](Screenshots/s5.png)
 
 ## Learning Outcome
 After completing this experiment, the learner will be able to:
