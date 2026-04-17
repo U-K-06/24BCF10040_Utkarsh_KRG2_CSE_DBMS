@@ -47,19 +47,13 @@ In enterprise-level database applications, related operations must be grouped to
 
 ## Procedure  
 1. Open Oracle SQL Developer and connect to the database  
-2. Create the employee table  
-   👉 (Insert image here)  
+2. Create the employee table   
 3. Insert sample records  
-   👉 (Insert image here)  
 4. Create package specification  
-   👉 (Insert image here)  
 5. Create package body  
-   👉 (Insert image here)  
 6. Compile the package successfully  
 7. Execute package procedure  
-   👉 (Insert image here)  
 8. Display employee details output  
-   👉 (Insert image here)  
 
 ---
 
